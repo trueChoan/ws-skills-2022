@@ -6,28 +6,50 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
-- les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
-- les spécifités du mot-clef `this` ❌ / ✔️
+- les `structures` de base du langage  ✔️
+- les normes `ecmascript`  ✔️
+- l'utilisation de l'`asynchrone`  ✔️
+- les spécifités du mot-clef `this`  ✔️
 
 ## 💻 Je code en Javascript
 
-### Un exemple de code commenté ❌ / ✔️
-
+### Un exemple de code commenté  ✔️
+`fonction convertir un tableau de byte`
 ```javascript
-(e) => mc2;
+function toggleByte(arr1, arr2) {
+  output = [];
+  for (let i = 0; i < arr1.length; i++) {
+    if (arr2[i] == 0) {
+      if (arr1[i] == 255) {
+        output.push(254);
+      } else if (arr1[i] % 2 == 1) {
+        output.push(arr1[i] + 1);
+      } else {
+        output.push(arr1[i]);
+      }
+    }
+    if (arr2[i] == 1) {
+      if (arr1[i] % 2 == 0) {
+        output.push(arr1[i] + 1);
+      } else {
+        output.push(arr1[i]);
+      }
+    }
+  }
+  console.log(output);
+}
+toggleByte([12, 11, 255], [1, 1, 0]);
 ```
 
-### Utilisation dans un projet ❌ / ✔️
-
-[lien github](...)
+### Utilisation dans un projet ✔️
+- animated dice from my boardgame project
+[lien github](https://github.com/WildCodeSchool/2022-03-php-remote-1283-montbeliard-cite-libre/blob/dev/assets/diceanimation.js)(...)
 
 Description :
 
-### J'ai utilisé ce langage en production ❌ / ✔️
-
-[lien du projet](...)
+### J'ai utilisé ce langage en production  ✔️
+- Modal en JS, librairie pour les confettis de la victoire, animation dé, utilisateur de stimulusJS avec symfony.
+[lien du projet](https://github.com/WildCodeSchool/2022-03-php-remote-1283-montbeliard-cite-libre)(...)
 
 Description :
 
