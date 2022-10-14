@@ -14,7 +14,7 @@
 ## 💻 Je code en Javascript
 
 ### Un exemple de code commenté  ✔️
-`fonction convertir un tableau de byte`
+`fonction modofier un tableau hexa a partir d'un tableau de byte`
 ```javascript
 function toggleByte(arr1, arr2) {
   output = [];
@@ -42,7 +42,7 @@ toggleByte([12, 11, 255], [1, 1, 0]);
 ```
 
 ### Utilisation dans un projet ✔️
-- animated dice from my boardgame project
+- animation du dé dans mon projet de jeu de société
 [lien github](https://github.com/WildCodeSchool/2022-03-php-remote-1283-montbeliard-cite-libre/blob/dev/assets/diceanimation.js)(...)
 
 Description :
